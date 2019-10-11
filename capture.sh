@@ -12,8 +12,8 @@ else
 fi
 
 # screen captures
+echo "screen capture is running..."
 while [ 1 ]; do
   $SCREENCAPTURE_CMD ./images/`date +%s`.jpg
-  echo "captured `date +%s`"
   sleep 4
 done
