@@ -12,8 +12,9 @@ else
 fi
 
 # screen captures
-echo "screen capture is running..."
+timer="${1:-4}"
+echo "screen capture is running every $timer seconds..."
 while [ 1 ]; do
   $SCREENCAPTURE_CMD ./images/`date +%s`.jpg
-  sleep 4
+  sleep $timer
 done

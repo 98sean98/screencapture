@@ -1,4 +1,5 @@
-timelapse_*.mov
+*/**/*.mov
+*.mov
 images/*.jpg
 tmp/*.jpg
 .DS_Store
